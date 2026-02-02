@@ -8,7 +8,7 @@ class ServicePack extends Model
 {
     protected $fillable = [
         'service_id', 'slug', 'title', 'subtitle', 'description',
-        'price', 'advantages', 'is_recommended', 'position', 'enabled'
+        'price', 'advantages', 'is_recommended', 'position', 'enabled', 'locale'
     ];
 
     protected $casts = [

@@ -34,6 +34,7 @@ class ServicePackSeeder extends Seeder
                 "is_recommended" => false,
                 "position" => 2,
                 "enabled" => true,
+                "locale" => "fr", // ← added
                 "created_at" => "2025-09-01T12:23:30.000000Z",
                 "updated_at" => "2025-09-01T12:23:30.000000Z"
             ],
@@ -53,6 +54,7 @@ class ServicePackSeeder extends Seeder
                 "is_recommended" => true,
                 "position" => 0,
                 "enabled" => true,
+                "locale" => "fr", // ← added
                 "created_at" => null,
                 "updated_at" => null
             ],
@@ -72,6 +74,7 @@ class ServicePackSeeder extends Seeder
                 "is_recommended" => false,
                 "position" => 0,
                 "enabled" => true,
+                "locale" => "fr", // ← added
                 "created_at" => "2025-12-23T17:15:17.000000Z",
                 "updated_at" => "2025-12-23T17:15:17.000000Z"
             ],
@@ -93,6 +96,7 @@ class ServicePackSeeder extends Seeder
                 "is_recommended" => false,
                 "position" => 1,
                 "enabled" => true,
+                "locale" => "fr", // ← added
                 "created_at" => "2025-09-01T12:23:30.000000Z",
                 "updated_at" => "2025-09-01T12:23:30.000000Z"
             ],
@@ -114,6 +118,7 @@ class ServicePackSeeder extends Seeder
                 "is_recommended" => true,
                 "position" => 2,
                 "enabled" => true,
+                "locale" => "fr", // ← added
                 "created_at" => "2025-09-01T12:23:30.000000Z",
                 "updated_at" => "2025-09-01T12:23:30.000000Z"
             ],
@@ -135,6 +140,7 @@ class ServicePackSeeder extends Seeder
                 "is_recommended" => false,
                 "position" => 1,
                 "enabled" => true,
+                "locale" => "fr", // ← added
                 "created_at" => "2025-09-01T12:23:30.000000Z",
                 "updated_at" => "2025-09-01T12:23:30.000000Z"
             ],
@@ -156,6 +162,7 @@ class ServicePackSeeder extends Seeder
                 "is_recommended" => true,
                 "position" => 2,
                 "enabled" => true,
+                "locale" => "fr", // ← added
                 "created_at" => "2025-09-01T12:23:30.000000Z",
                 "updated_at" => "2025-09-01T12:23:30.000000Z"
             ],
@@ -173,6 +180,7 @@ class ServicePackSeeder extends Seeder
                 "is_recommended" => true,
                 "position" => 0,
                 "enabled" => true,
+                "locale" => "fr", // ← added
                 "created_at" => "2025-10-16T17:06:34.000000Z",
                 "updated_at" => "2025-10-16T17:06:34.000000Z"
             ],
@@ -192,6 +200,7 @@ class ServicePackSeeder extends Seeder
                 "is_recommended" => true,
                 "position" => 0,
                 "enabled" => true,
+                "locale" => "fr", // ← added
                 "created_at" => "2025-09-08T13:18:04.000000Z",
                 "updated_at" => "2025-09-08T13:18:04.000000Z"
             ],
@@ -213,6 +222,7 @@ class ServicePackSeeder extends Seeder
                 "is_recommended" => true,
                 "position" => 3,
                 "enabled" => true,
+                "locale" => "fr", // ← added
                 "created_at" => "2025-10-10T00:00:00.000000Z",
                 "updated_at" => "2025-10-10T00:00:00.000000Z"
             ],
@@ -234,6 +244,7 @@ class ServicePackSeeder extends Seeder
                 "is_recommended" => false,
                 "position" => 2,
                 "enabled" => true,
+                "locale" => "fr", // ← added
                 "created_at" => null,
                 "updated_at" => null
             ],
@@ -255,6 +266,7 @@ class ServicePackSeeder extends Seeder
                 "is_recommended" => true,
                 "position" => 1,
                 "enabled" => true,
+                "locale" => "fr", // ← added
                 "created_at" => null,
                 "updated_at" => null
             ]
