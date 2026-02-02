@@ -14,7 +14,7 @@ class AddonSeeder extends Seeder
      */
     public function run(): void
     {
-                $addons = [
+        $addons = [
             [
                 "id" => 1,
                 "key" => "augmentation_capital",
@@ -26,6 +26,7 @@ class AddonSeeder extends Seeder
                 "has_form" => true,
                 "description" => "Procédure d'augmentation du capital social de la société",
                 "is_active" => true,
+                "locale" => "fr", // ← added
                 "created_at" => "2025-10-05T23:40:05.000000Z",
                 "updated_at" => "2025-10-05T23:40:05.000000Z"
             ],
@@ -40,6 +41,7 @@ class AddonSeeder extends Seeder
                 "has_form" => true,
                 "description" => "Procédure de modification de la gérance de la société",
                 "is_active" => true,
+                "locale" => "fr", // ← added
                 "created_at" => "2025-10-05T23:40:05.000000Z",
                 "updated_at" => "2025-10-05T23:40:05.000000Z"
             ],
@@ -54,6 +56,7 @@ class AddonSeeder extends Seeder
                 "has_form" => true,
                 "description" => "Procédure de modification de l'objet social de la société",
                 "is_active" => true,
+                "locale" => "fr", // ← added
                 "created_at" => "2025-10-05T23:40:05.000000Z",
                 "updated_at" => "2025-10-05T23:40:05.000000Z"
             ],
@@ -68,6 +71,7 @@ class AddonSeeder extends Seeder
                 "has_form" => false,
                 "description" => null,
                 "is_active" => false,
+                "locale" => "fr", // ← added
                 "created_at" => "2025-10-06T00:29:51.000000Z",
                 "updated_at" => "2025-10-06T00:29:51.000000Z"
             ],
@@ -82,6 +86,7 @@ class AddonSeeder extends Seeder
                 "has_form" => true,
                 "description" => "Procédure de changement de dénomination sociale de la société",
                 "is_active" => true,
+                "locale" => "fr", // ← added
                 "created_at" => "2025-10-05T23:40:05.000000Z",
                 "updated_at" => "2025-10-05T23:40:05.000000Z"
             ],
@@ -96,6 +101,7 @@ class AddonSeeder extends Seeder
                 "has_form" => true,
                 "description" => "Procédure de cession de parts sociales entre associés",
                 "is_active" => true,
+                "locale" => "fr", // ← added
                 "created_at" => "2025-10-05T23:40:05.000000Z",
                 "updated_at" => "2025-10-05T23:40:05.000000Z"
             ],
@@ -110,6 +116,7 @@ class AddonSeeder extends Seeder
                 "has_form" => true,
                 "description" => "Procédure de transfert du siège social de la société",
                 "is_active" => true,
+                "locale" => "fr", // ← added
                 "created_at" => "2025-10-05T23:40:05.000000Z",
                 "updated_at" => "2025-10-05T23:40:05.000000Z"
             ],
@@ -124,6 +131,7 @@ class AddonSeeder extends Seeder
                 "has_form" => false,
                 "description" => null,
                 "is_active" => true,
+                "locale" => "fr", // ← added
                 "created_at" => "2025-10-20T17:35:09.000000Z",
                 "updated_at" => "2025-10-20T17:35:09.000000Z"
             ],
@@ -138,6 +146,7 @@ class AddonSeeder extends Seeder
                 "has_form" => false,
                 "description" => null,
                 "is_active" => true,
+                "locale" => "fr", // ← added
                 "created_at" => "2025-10-21T20:28:09.000000Z",
                 "updated_at" => "2025-10-21T20:28:09.000000Z"
             ],
@@ -152,6 +161,7 @@ class AddonSeeder extends Seeder
                 "has_form" => false,
                 "description" => "l'adresse de succursale et ne pas dant la meme ville",
                 "is_active" => true,
+                "locale" => "fr", // ← added
                 "created_at" => null,
                 "updated_at" => null
             ]
