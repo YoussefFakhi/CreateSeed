@@ -7,7 +7,7 @@ use Illuminate\Database\Seeder;
 use App\Models\Service;
 use Illuminate\Support\Arr;
 
-class ServiceSeeder extends Seeder
+class ServiceSeeder_English extends Seeder
 {
     /**
      * Run the database seeds.
@@ -18,12 +18,12 @@ class ServiceSeeder extends Seeder
             [
                 "id" => 3,
                 "key" => "company.modify.manager_change",
-                "title" => "Changement de gérant",
-                "description" => "Modification du gérant d'une société",
+                "title" => "Manager Change",
+                "description" => "Modification of a company's manager",
                 "base_price" => 99000,
                 "sla_days" => 3,
                 "enabled" => true,
-                "locale" => "fr", // ← added
+                "locale" => "en",
                 "created_at" => "2025-09-01T12:23:30.000000Z",
                 "updated_at" => "2025-09-01T12:23:30.000000Z"
             ],
@@ -35,103 +35,103 @@ class ServiceSeeder extends Seeder
                 "base_price" => 1,
                 "sla_days" => 30,
                 "enabled" => true,
-                "locale" => "fr", // ← added
+                "locale" => "en",
                 "created_at" => "2025-09-01T12:23:30.000000Z",
                 "updated_at" => "2025-10-05T22:41:59.000000Z"
             ],
             [
                 "id" => 19,
                 "key" => "creation_filiale",
-                "title" => "Création de filiale",
-                "description" => "Création de filiale",
+                "title" => "Subsidiary Creation",
+                "description" => "Subsidiary creation",
                 "base_price" => 0,
                 "sla_days" => 30,
                 "enabled" => true,
-                "locale" => "fr", // ← added
+                "locale" => "en",
                 "created_at" => "2025-10-14T08:46:16.000000Z",
                 "updated_at" => "2025-10-14T08:46:16.000000Z"
             ],
             [
                 "id" => 21,
                 "key" => "creation_s_a",
-                "title" => "Création S.A",
+                "title" => "S.A. Creation",
                 "description" => "just testing",
                 "base_price" => 0,
                 "sla_days" => 30,
                 "enabled" => true,
-                "locale" => "fr", // ← added
+                "locale" => "en",
                 "created_at" => "2025-10-17T09:58:44.000000Z",
                 "updated_at" => "2025-10-17T09:58:44.000000Z"
             ],
             [
                 "id" => 1,
                 "key" => "company.sarl.create",
-                "title" => "Création de SARL",
-                "description" => "Création complète d'une Société à Responsabilité Limitée",
+                "title" => "SARL Creation",
+                "description" => "Complete incorporation of a Société à Responsabilité Limitée (SARL)",
                 "base_price" => 199000,
                 "sla_days" => 7,
                 "enabled" => true,
-                "locale" => "fr", // ← added
+                "locale" => "en",
                 "created_at" => "2025-09-01T12:23:30.000000Z",
                 "updated_at" => "2025-09-01T12:23:30.000000Z"
             ],
             [
                 "id" => 2,
                 "key" => "company.sarlau.create",
-                "title" => "Création de SARLAU  ",
-                "description" => "Création complète d'une SARL à Capital Variable",
+                "title" => "SARLAU Creation",
+                "description" => "Complete incorporation of a SARL with Variable Capital (SARLAU)",
                 "base_price" => 199000,
                 "sla_days" => 7,
                 "enabled" => true,
-                "locale" => "fr", // ← added
+                "locale" => "en",
                 "created_at" => "2025-09-01T12:23:30.000000Z",
                 "updated_at" => "2025-09-01T12:23:30.000000Z"
             ],
             [
                 "id" => 6,
                 "key" => "depot.marque",
-                "title" => "Dépôt De Marque",
+                "title" => "Trademark Registration",
                 "description" => "this service for protecting brand",
                 "base_price" => 33,
                 "sla_days" => 53,
                 "enabled" => true,
-                "locale" => "fr", // ← added
+                "locale" => "en",
                 "created_at" => "2025-09-08T08:57:58.000000Z",
                 "updated_at" => "2025-09-08T08:57:58.000000Z"
             ],
             [
                 "id" => 22,
                 "key" => "company.sas.create",
-                "title" => "Création de SAS",
-                "description" => "Création complète d’une Société Par Actions Simplifiée\n",
+                "title" => "SAS Creation",
+                "description" => "Complete incorporation of a Simplified Joint-Stock Company (SAS)",
                 "base_price" => 90000,
                 "sla_days" => 7,
                 "enabled" => true,
-                "locale" => "fr", // ← added
+                "locale" => "en",
                 "created_at" => null,
                 "updated_at" => null
             ],
             [
                 "id" => 23,
                 "key" => "company.succursale.create",
-                "title" => "Création de Succursale",
-                "description" => "Création complète d'une SUCCERSALE",
+                "title" => "Branch Creation",
+                "description" => "Complete BRANCH CREATION",
                 "base_price" => 199999,
                 "sla_days" => 34,
                 "enabled" => true,
-                "locale" => "fr", // ← added
+                "locale" => "en",
                 "created_at" => null,
                 "updated_at" => null
             ],
             [
                 "id" => 24,
                 "key" => "accounting.create",
-                "title" => "Création de  comptabilité",
-                "description" => "Confiez-nous votre comptabilité ",
+                "title" => "Accounting Setup",
+                "description" => "Entrust us with your accounting",
                 "base_price" => 1900,
                 "sla_days" => 31,
                 "enabled" => true,
-                "locale" => "fr", // ← added
+                "locale" => "en",
                 "created_at" => null,
                 "updated_at" => null
             ]
