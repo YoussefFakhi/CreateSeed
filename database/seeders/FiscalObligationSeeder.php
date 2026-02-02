@@ -25,7 +25,7 @@ public function run(): void
                 'rule_text' => 'Avant la fin du mois suivant',
                 'client_text' => 'Déclarer et payer la TVA avant la fin du mois suivant le mois de référence.',
                 'is_active' => true,
-                'local' => 'Fr',
+                'local' => 'fr',
                 'created_at' => '2025-11-27 22:08:06',
                 'updated_at' => '2025-11-27 22:08:06'
             ],
@@ -38,7 +38,7 @@ public function run(): void
                 'rule_text' => 'Avant la fin du mois suivant le trimestre',
                 'client_text' => 'Déclarer et payer la TVA du trimestre avant la fin du mois suivant le trimestre de référence.',
                 'is_active' => true,
-                'local' => 'Fr',
+                'local' => 'fr',
                 'created_at' => '2025-11-27 22:08:06',
                 'updated_at' => '2025-11-27 22:08:06'
             ],
@@ -51,7 +51,7 @@ public function run(): void
                 'rule_text' => 'Avant la fin de chaque mois',
                 'client_text' => 'Déclarer et payer l\'IR retenu sur salaires avant la fin de chaque mois.',
                 'is_active' => true,
-                'local' => 'Fr',
+                'local' => 'fr',
                 'created_at' => '2025-11-27 22:08:06',
                 'updated_at' => '2025-11-27 22:08:06'
             ],
@@ -64,7 +64,7 @@ public function run(): void
                 'rule_text' => 'Avant la fin de chaque mois',
                 'client_text' => 'Déclarer et payer les retenues à la source sur honoraires, loyers, etc. avant la fin de chaque mois.',
                 'is_active' => true,
-                'local' => 'Fr',
+                'local' => 'fr',
                 'created_at' => '2025-11-27 22:08:06',
                 'updated_at' => '2025-11-27 22:08:06'
             ],
@@ -77,7 +77,7 @@ public function run(): void
                 'rule_text' => 'Avant la fin de chaque mois',
                 'client_text' => 'Verser les droits de timbre collectés avant la fin de chaque mois.',
                 'is_active' => true,
-                'local' => 'Fr',
+                'local' => 'fr',
                 'created_at' => '2025-11-27 22:08:06',
                 'updated_at' => '2025-11-27 22:08:06'
             ],
@@ -90,7 +90,7 @@ public function run(): void
                 'rule_text' => 'Avant le 10 du mois suivant',
                 'client_text' => 'Déclarer et payer les cotisations sociales CNSS avant le 10 du mois suivant.',
                 'is_active' => true,
-                'local' => 'Fr',
+                'local' => 'fr',
                 'created_at' => '2025-11-27 22:08:06',
                 'updated_at' => '2025-11-27 22:08:06'
             ],
@@ -103,7 +103,7 @@ public function run(): void
                 'rule_text' => 'Avant la fin février',
                 'client_text' => 'Déposer la déclaration annuelle des traitements et salaires (ETAT 9421) avant la fin février.',
                 'is_active' => true,
-                'local' => 'Fr',
+                'local' => 'fr',
                 'created_at' => '2025-11-27 22:08:06',
                 'updated_at' => '2025-11-27 22:08:06'
             ],
@@ -116,7 +116,7 @@ public function run(): void
                 'rule_text' => '31/03 – 30/06 – 30/09 – 31/12',
                 'client_text' => 'Payer les acomptes provisionnels de l\'IS aux dates suivantes : 31 mars, 30 juin, 30 septembre et 31 décembre.',
                 'is_active' => true,
-                'local' => 'Fr',
+                'local' => 'fr',
                 'created_at' => '2025-11-27 22:08:06',
                 'updated_at' => '2025-11-27 22:08:06'
             ],
@@ -129,7 +129,7 @@ public function run(): void
                 'rule_text' => 'Dans les 3 mois suivant la clôture de l\'exercice',
                 'client_text' => 'Déposer la liasse fiscale et la déclaration de résultat IS dans les 3 mois suivant la clôture de l\'exercice.',
                 'is_active' => true,
-                'local' => 'Fr',
+                'local' => 'fr',
                 'created_at' => '2025-11-27 22:08:06',
                 'updated_at' => '2025-11-27 22:08:06'
             ],
@@ -142,7 +142,7 @@ public function run(): void
                 'rule_text' => 'Dans les 3 mois suivant la clôture de l\'exercice',
                 'client_text' => 'Payer le reliquat (solde) de l\'IS dans les 3 mois suivant la clôture de l\'exercice.',
                 'is_active' => true,
-                'local' => 'Fr',
+                'local' => 'fr',
                 'created_at' => '2025-11-27 22:08:06',
                 'updated_at' => '2025-11-27 22:08:06'
             ],
@@ -155,7 +155,7 @@ public function run(): void
                 'rule_text' => 'Avant le 31 janvier',
                 'client_text' => 'Déclarer les éléments imposables de la taxe professionnelle avant le 31 janvier.',
                 'is_active' => true,
-                'local' => 'Fr',
+                'local' => 'fr',
                 'created_at' => '2025-11-27 22:08:06',
                 'updated_at' => '2025-11-27 22:08:06'
             ]
