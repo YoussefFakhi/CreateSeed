@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class AddonVariant extends Model
 {
     protected $fillable = [
-        'addon_id', 'label', 'option_key', 'price', 'is_active', 'metadata'
+        'addon_id', 'label', 'option_key', 'price', 'is_active', 'metadata', 'locale'
     ];
 
     protected $casts = [

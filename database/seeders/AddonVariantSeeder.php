@@ -14,7 +14,7 @@ class AddonVariantSeeder extends Seeder
      */
     public function run(): void
     {
-                $variants = [
+        $variants = [
             [
                 "id" => 1,
                 "addon_id" => 7,
@@ -22,6 +22,7 @@ class AddonVariantSeeder extends Seeder
                 "option_key" => "casablanca",
                 "price" => "1500.00",
                 "is_active" => true,
+                "locale" => "fr", // ← added
                 "metadata" => [],
                 "created_at" => "2025-10-06T01:02:01.000000Z",
                 "updated_at" => "2025-10-06T01:02:01.000000Z"
@@ -33,6 +34,7 @@ class AddonVariantSeeder extends Seeder
                 "option_key" => "marakech",
                 "price" => "2000.00",
                 "is_active" => true,
+                "locale" => "fr", // ← added
                 "metadata" => [],
                 "created_at" => "2025-10-06T14:49:04.000000Z",
                 "updated_at" => "2025-10-06T14:49:04.000000Z"
@@ -44,6 +46,7 @@ class AddonVariantSeeder extends Seeder
                 "option_key" => "agadir",
                 "price" => "3300.00",
                 "is_active" => true,
+                "locale" => "fr", // ← added
                 "metadata" => [],
                 "created_at" => "2025-10-14T13:12:21.000000Z",
                 "updated_at" => "2025-10-14T13:12:21.000000Z"
@@ -55,6 +58,7 @@ class AddonVariantSeeder extends Seeder
                 "option_key" => "rabat",
                 "price" => "2000.00",
                 "is_active" => true,
+                "locale" => "fr", // ← added
                 "metadata" => null,
                 "created_at" => "2025-10-06T01:02:01.000000Z",
                 "updated_at" => "2025-10-06T01:02:01.000000Z"
@@ -66,6 +70,7 @@ class AddonVariantSeeder extends Seeder
                 "option_key" => "fes",
                 "price" => "2000.00",
                 "is_active" => true,
+                "locale" => "fr", // ← added
                 "metadata" => null,
                 "created_at" => "2025-10-06T01:02:01.000000Z",
                 "updated_at" => "2025-10-06T01:02:01.000000Z"
@@ -77,6 +82,7 @@ class AddonVariantSeeder extends Seeder
                 "option_key" => "meknes",
                 "price" => "2000.00",
                 "is_active" => true,
+                "locale" => "fr", // ← added
                 "metadata" => null,
                 "created_at" => "2025-10-06T01:02:01.000000Z",
                 "updated_at" => "2025-10-06T01:02:01.000000Z"
@@ -88,6 +94,7 @@ class AddonVariantSeeder extends Seeder
                 "option_key" => "tanger",
                 "price" => "2000.00",
                 "is_active" => true,
+                "locale" => "fr", // ← added
                 "metadata" => null,
                 "created_at" => "2025-10-06T01:02:01.000000Z",
                 "updated_at" => "2025-10-06T01:02:01.000000Z"
@@ -99,6 +106,7 @@ class AddonVariantSeeder extends Seeder
                 "option_key" => "beni_mellal",
                 "price" => "2000.00",
                 "is_active" => true,
+                "locale" => "fr", // ← added
                 "metadata" => null,
                 "created_at" => "2025-10-06T01:02:01.000000Z",
                 "updated_at" => "2025-10-06T01:02:01.000000Z"
@@ -106,7 +114,6 @@ class AddonVariantSeeder extends Seeder
         ];
 
         foreach ($variants as $data) {
-            // Convert empty array to null if you prefer consistency (optional)
             if (is_array($data['metadata']) && empty($data['metadata'])) {
                 $data['metadata'] = null;
             }
