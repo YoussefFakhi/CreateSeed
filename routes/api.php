@@ -3,6 +3,7 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ServiceController;
+use App\Http\Controllers\ServicePackController;
 
 
 Route::get('/user', function (Request $request) {
@@ -10,3 +11,5 @@ Route::get('/user', function (Request $request) {
 })->middleware('auth:sanctum');
 
 Route::apiResource('services',ServiceController::class);
+
+Route::apiResource('servicePack', ServicePackController::class);

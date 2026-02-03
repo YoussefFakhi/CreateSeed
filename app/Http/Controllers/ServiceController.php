@@ -52,7 +52,7 @@ class ServiceController extends Controller
             return response()->json(['message'=>'service not found'],404);
         }
         $validated = $request->validate([
-            // 'key' => 'string|unique:services,key,' . $id,
+            //'key' => 'string|unique:services,key,' . $id,
             'title' => 'string',
             'description' => 'nullable|string',
             'base_price' => 'numeric',
