@@ -42,6 +42,8 @@ class ServicePackController extends Controller
             }
 
         return response()->json($pack,201);
+        //return response()->json(['success' => true,'id' => $pack->id,], 201);
+
     }
 
     /**
